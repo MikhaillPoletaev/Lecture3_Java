@@ -8,10 +8,6 @@ public class Test_2 {
 
         if (add > 1000){
             bonus = add / 100;
-        } else {
-            if (add < 1000){
-                bonus = 0;
-            }
         }
         int final_balance = account + add + bonus;
         System.out.println("Баланс: " + final_balance);
